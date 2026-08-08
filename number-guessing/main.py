@@ -8,8 +8,6 @@ while num != random_number:
     num =int(input()) 
     if num >1000 or num<1:
         print('FAIl')
-    if num == random_number: 
-        print('go girl')
     if num > random_number: 
         print('too big')
     if num < random_number:
