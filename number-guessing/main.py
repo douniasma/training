@@ -1,7 +1,7 @@
 import random
 
 random_number = random.randint(1, 1000)
-
+#ddsdqds
 num=-1  
 while num != random_number:
     print("enter num: ")
