@@ -1,9 +1,8 @@
-import random
+from wonderwords import RandomWord
 
-dictionary= ['rests',"kills","anchor","holes","write","alien","cards"]
-index = random.randrange(len(dictionary))
-target=dictionary[index]
+r = RandomWord()
 
+target = r.word(word_min_length=5, word_max_length=5)
 
 tries=5
 while tries !=0:
